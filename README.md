@@ -7,8 +7,7 @@
 ## 🚀 Featured Projects  
 | Project | Tools | Impact |  
 |---------|-------|--------|  
-| **[EHR Heart Predictor](projects/ehr)** | Python, PyTorch | 92% accuracy |  
-| **[Retail Forecaster](projects/retail)** | Power BI, Excel | 20% fewer stockouts |  
+| **[EHR Heart Predictor](projects/heart-disease-predictor)** | Python, PyTorch | 92% accuracy |  
 | **[Route Optimizer](projects/transport)** | Python, APIs | Real-time transit analysis |  
 
 ## 🛠️ Technical Skills  
