@@ -1,5 +1,5 @@
 # Febin Modavancheri  
-**Data Analyst | Python + SQL + Power BI Specialist**  
+**Software Developer | PHP + Python + SQL + Power BI Specialist**  
 
 🔹 **Ex-SBG London** (Reduced financial reporting errors by 45%)  
 🔹 **MSc Data Science** (University of Essex)  
