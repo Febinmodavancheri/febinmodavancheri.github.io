@@ -14,8 +14,8 @@ My background spans both data and software engineering, which allows me to appro
 |------|------|------|------|
 | **EHR Heart Disease Predictor** | Predictive modelling on healthcare data | Python, ML | Completed |
 | **Route Optimisation & Transit Analysis** | Data-driven transport insights | Python, APIs | Completed |
-| **Customer Booking Behaviour Prediction** | Predictive analytics for airline bookings | Python, ML | In Progress |
-| **Ethical Use of Data in Ad Targeting** | Data ethics, privacy & consumer impact | Data Analysis, Research | Planned |
+| **Customer Booking Behaviour Prediction** | Predictive analytics for airline bookings | Python, ML | Completed |
+| **Ethical Use of Data in Ad Targeting** | Data ethics, privacy & consumer impact | Data Analysis, Research | In Progress |
 
 ---
 
@@ -53,4 +53,5 @@ My background spans both data and software engineering, which allows me to appro
 
 📧 Email: [febinmodavancheri@gmail.com](mailto:febinmodavancheri@gmail.com)  
 💼 LinkedIn: [linkedin.com/in/febinmodavancheri](https://linkedin.com/in/febinmodavancheri)  
-📄 Resume: [Download PDF](resume/Febin_Resume.pdf)  
+📄 Resume: [Download PDF](./resume/Febin_Modavancheri_Resume.pdf)
+)  
