@@ -1,19 +1,21 @@
 # Febin Modavancheri  
 
-**Data Engineer | Data Science Graduate | Software Engineer (Data-Focused)**  
+**Data Analyst | Data Science Graduate | Data-Focused Software Engineer**  
 
-MSc Data Science graduate from the University of Essex with 7+ years of experience working across data analysis, reporting, and application development. I enjoy working with real-world data to uncover patterns, build practical models, and create dashboards that support business and operational decision-making.
+MSc Data Science graduate from the University of Essex with 7+ years of experience working across data analysis, reporting, and application development. I work with real-world data to uncover patterns, build practical models, and create dashboards that support operational and business decision-making.
 
-My background spans both data and software engineering, which allows me to approach problems end-to-end—from data ingestion and modelling to analysis, visualisation, and delivery.
+My background spans both data and software engineering, which allows me to approach problems end-to-end — from data ingestion and modelling to analysis, visualisation, and delivery.
 
 ---
 
-## 🚀 Featured Projects  
+## 🚀 Featured & Ongoing Projects  
 
-| Project | Focus | Tools | Outcome |
-|--------|------|-------|--------|
-| **EHR Heart Disease Predictor** | Predictive modelling on healthcare data | Python, PyTorch | Built and evaluated models to predict heart disease risk with strong accuracy and interpretability |
-| **Route Optimisation & Transit Analysis** | Data-driven transport analysis | Python, APIs | Analysed real-time transit data to support route optimisation and decision-making |
+| Project | Focus | Tools | Status |
+|------|------|------|------|
+| **EHR Heart Disease Predictor** | Predictive modelling on healthcare data | Python, ML | Completed |
+| **Route Optimisation & Transit Analysis** | Data-driven transport insights | Python, APIs | Completed |
+| **Customer Booking Behaviour Prediction** | Predictive analytics for airline bookings | Python, ML | In Progress |
+| **Ethical Use of Data in Ad Targeting** | Data ethics, privacy & consumer impact | Data Analysis, Research | Planned |
 
 ---
 
@@ -39,9 +41,16 @@ My background spans both data and software engineering, which allows me to appro
 
 ---
 
+## 📌 Interests  
+- Business analytics and decision support  
+- Applied machine learning for real-world problems  
+- Ethical and responsible use of data  
+- Building insights that are clear, practical, and actionable  
+
+---
+
 ## 📫 Get in Touch  
 
 📧 Email: [febinmodavancheri@gmail.com](mailto:febinmodavancheri@gmail.com)  
 💼 LinkedIn: [linkedin.com/in/febinmodavancheri](https://linkedin.com/in/febinmodavancheri)  
 📄 Resume: [Download PDF](resume/Febin_Resume.pdf)  
-
