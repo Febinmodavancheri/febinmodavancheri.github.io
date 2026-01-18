@@ -1,6 +1,6 @@
 # Febin Modavancheri  
 
-**Data Analyst | Data Science Graduate | Data-Focused Software Engineer**  
+**Data Engineer  | Data Science Graduate | Data-Focused Software Engineer**  
 
 MSc Data Science graduate from the University of Essex with 7+ years of experience working across data analysis, reporting, and application development. I work with real-world data to uncover patterns, build practical models, and create dashboards that support operational and business decision-making.
 
