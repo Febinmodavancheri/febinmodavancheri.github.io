@@ -1,4 +1,3 @@
-
 # Restaurant ERP Data Analysis
 
 ## Overview
@@ -35,9 +34,9 @@ These questions illustrate how operational ERP data can be transformed into insi
 
 ## Database Domains Identified
 
-During exploration, the ERP database was organised into the following functional domains:
+During exploration, the ERP database was organised into the following functional domains.
 
-**Sales / POS**
+### Sales / POS
 
 * tickets
 * ticketlines
@@ -45,27 +44,27 @@ During exploration, the ERP database was organised into the following functional
 * payments
 * taxlines
 
-**Product / Menu**
+### Product / Menu
 
 * products
 * menu configuration tables
 
-**Inventory**
+### Inventory
 
 * stockdiary
 * stock movement tables
 
-**Customer / Delivery**
+### Customer / Delivery
 
 * customers
 * customer_address
 
-**Finance**
+### Finance
 
 * tax-related tables
 * financial transaction records
 
-**System Configuration**
+### System Configuration
 
 * application configuration tables
 * user and system settings
@@ -94,9 +93,42 @@ This structure allows the ERP system to capture detailed transactional informati
 
 ---
 
+## Data Relationship Overview
+
+During exploration, key relationships between transactional tables were identified to understand how restaurant sales are recorded in the ERP system.
+
+### Core Transaction Tables
+
+```
+tickets
+   │
+   ├── ticketlines
+   │        │
+   │        └── products
+   │
+   └── receipts
+            │
+            ├── payments
+            │
+            └── taxlines
+```
+
+### Explanation
+
+* **tickets** represent a customer order created in the POS system.
+* **ticketlines** contain individual items ordered in the ticket.
+* **products** store the menu item definitions linked to ticket lines.
+* **receipts** record the finalized sale transaction.
+* **payments** capture how the transaction was paid (cash, card, etc.).
+* **taxlines** store tax calculations applied to the sale.
+
+This structure allows the ERP system to maintain a detailed record of each restaurant transaction from order creation through payment and tax calculation.
+
+---
+
 ## Example SQL Exploration
 
-Example queries used during database exploration:
+Example queries used during database exploration.
 
 Retrieve recent receipt transactions:
 
@@ -116,14 +148,6 @@ LIMIT 20;
 ```
 
 These queries were used to understand how transactional data is stored and how different tables relate to each other within the POS system.
-
----
-
-## Tools Used
-
-* MySQL
-* SQL
-* MySQL Workbench
 
 ---
 
@@ -180,6 +204,14 @@ These queries demonstrate how operational ERP data can be transformed into meani
 
 ---
 
+## Tools Used
+
+* MySQL
+* SQL
+* MySQL Workbench
+
+---
+
 ## Skills Demonstrated
 
 * Relational database exploration
@@ -189,44 +221,6 @@ These queries demonstrate how operational ERP data can be transformed into meani
 * Conceptual thinking for data warehouse architecture
 
 ---
-
-## Future Work
-
-* Create an entity relationship diagram (ERD) of key tables
-* Map operational tables to fact and dimension tables
-* Design a conceptual star schema for analytical reporting
-* Develop sample SQL queries for business reporting (sales, product performance, customer activity)
-
-## Data Relationship Overview
-
-During exploration, key relationships between transactional tables were identified to understand how restaurant sales are recorded in the ERP system.
-
-### Core Transaction Tables
-
-```id="2shndx"
-tickets
-   │
-   ├── ticketlines
-   │        │
-   │        └── products
-   │
-   └── receipts
-            │
-            ├── payments
-            │
-            └── taxlines
-```
-
-### Explanation
-
-* **tickets** represent a customer order created in the POS system.
-* **ticketlines** contain individual items ordered in the ticket.
-* **products** store the menu item definitions linked to ticket lines.
-* **receipts** record the finalized sale transaction.
-* **payments** capture how the transaction was paid (cash, card, etc.).
-* **taxlines** store tax calculations applied to the sale.
-
-This structure allows the ERP system to maintain a detailed record of each restaurant transaction from order creation through payment and tax calculation.
 
 ## Potential Data Warehouse Model
 
@@ -317,6 +311,13 @@ Based on the explored ERP transactional structure, the following metrics could b
 * Transaction success rates
 * Average payment per order
 
-These metrics could be implemented in a BI tool such as Microsoft Power BI to create interactive dashboards that help restaurant managers monitor performance and make data-driven decisions.
+These metrics could be implemented in a BI tool such as **Microsoft Power BI** to create interactive dashboards that help restaurant managers monitor performance and make data-driven decisions.
 
+---
 
+## Future Work
+
+* Create an entity relationship diagram (ERD) of key tables
+* Map operational tables to fact and dimension tables
+* Design a conceptual star schema for analytical reporting
+* Develop sample SQL queries for business reporting (sales, product performance, customer activity)
