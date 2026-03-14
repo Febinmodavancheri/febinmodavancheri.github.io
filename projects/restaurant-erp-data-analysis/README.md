@@ -130,7 +130,7 @@ These queries were used to understand how transactional data is stored and how d
 * Design a conceptual star schema for analytical reporting
 * Develop sample SQL queries for business reporting (sales, product performance, customer activity)
 
-* ## Data Relationship Overview
+## Data Relationship Overview
 
 During exploration, key relationships between transactional tables were identified to understand how restaurant sales are recorded in the ERP system.
 
