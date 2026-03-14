@@ -129,3 +129,35 @@ These queries were used to understand how transactional data is stored and how d
 * Map operational tables to fact and dimension tables
 * Design a conceptual star schema for analytical reporting
 * Develop sample SQL queries for business reporting (sales, product performance, customer activity)
+
+* ## Data Relationship Overview
+
+During exploration, key relationships between transactional tables were identified to understand how restaurant sales are recorded in the ERP system.
+
+### Core Transaction Tables
+
+```id="2shndx"
+tickets
+   │
+   ├── ticketlines
+   │        │
+   │        └── products
+   │
+   └── receipts
+            │
+            ├── payments
+            │
+            └── taxlines
+```
+
+### Explanation
+
+* **tickets** represent a customer order created in the POS system.
+* **ticketlines** contain individual items ordered in the ticket.
+* **products** store the menu item definitions linked to ticket lines.
+* **receipts** record the finalized sale transaction.
+* **payments** capture how the transaction was paid (cash, card, etc.).
+* **taxlines** store tax calculations applied to the sale.
+
+This structure allows the ERP system to maintain a detailed record of each restaurant transaction from order creation through payment and tax calculation.
+
