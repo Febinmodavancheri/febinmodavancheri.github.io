@@ -161,3 +161,63 @@ tickets
 
 This structure allows the ERP system to maintain a detailed record of each restaurant transaction from order creation through payment and tax calculation.
 
+## Potential Data Warehouse Model
+
+Based on the exploration of the ERP database, the transactional structure can be transformed into a simplified analytical model for reporting and business intelligence.
+
+### Fact Table
+
+**FactSales**
+
+This table would store transactional sales records and key numerical metrics such as:
+
+* Total sales amount
+* Quantity sold
+* Tax amount
+* Payment value
+
+### Dimension Tables
+
+**DimProduct**
+
+* Product ID
+* Product name
+* Category
+* Menu grouping
+
+**DimCustomer**
+
+* Customer ID
+* Customer attributes
+
+**DimRestaurant**
+
+* Restaurant / outlet identifier
+
+**DimDate**
+
+* Date
+* Month
+* Year
+* Day of week
+
+### Conceptual Star Schema
+
+```
+            DimProduct
+                │
+                │
+DimDate ─── FactSales ─── DimRestaurant
+                │
+                │
+           DimCustomer
+```
+
+This structure simplifies analytical queries and enables efficient reporting such as:
+
+* Daily sales trends
+* Product performance analysis
+* Customer purchasing patterns
+* Restaurant-level performance metrics
+
+
