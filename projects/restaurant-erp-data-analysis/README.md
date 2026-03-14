@@ -19,6 +19,20 @@ The project focuses on identifying key data entities and relationships that supp
 
 ---
 
+## Example Business Questions
+
+Using the ERP transactional data, several analytical questions can be explored:
+
+* What are the top-selling menu items across restaurants?
+* What is the daily or monthly sales trend?
+* Which payment methods are most commonly used?
+* What are the busiest hours for restaurant transactions?
+* How does product performance vary across different locations?
+
+These questions illustrate how operational ERP data can be transformed into insights that support restaurant management and business decision-making.
+
+---
+
 ## Database Domains Identified
 
 During exploration, the ERP database was organised into the following functional domains:
@@ -110,6 +124,59 @@ These queries were used to understand how transactional data is stored and how d
 * MySQL
 * SQL
 * MySQL Workbench
+
+---
+
+## Sample Analytics Queries
+
+The following example queries demonstrate how transactional ERP data can be analysed to generate business insights.
+
+### Top Selling Products
+
+Identify the most frequently sold menu items based on ticket line records.
+
+```sql
+SELECT product_id, COUNT(*) AS items_sold
+FROM ticketlines
+GROUP BY product_id
+ORDER BY items_sold DESC
+LIMIT 10;
+```
+
+### Daily Sales Activity
+
+Estimate daily transaction volume using receipt records.
+
+```sql
+SELECT DATE(created) AS sale_date, COUNT(*) AS transactions
+FROM receipts
+GROUP BY sale_date
+ORDER BY sale_date DESC;
+```
+
+### Payment Method Usage
+
+Analyse how customers pay for their orders.
+
+```sql
+SELECT payment_type, COUNT(*) AS usage_count
+FROM payments
+GROUP BY payment_type
+ORDER BY usage_count DESC;
+```
+
+### Product Sales Distribution
+
+Understand how product sales are distributed across the menu.
+
+```sql
+SELECT product_id, SUM(quantity) AS total_quantity
+FROM ticketlines
+GROUP BY product_id
+ORDER BY total_quantity DESC;
+```
+
+These queries demonstrate how operational ERP data can be transformed into meaningful analytical insights such as product performance, sales trends, and payment behaviour.
 
 ---
 
@@ -219,5 +286,37 @@ This structure simplifies analytical queries and enables efficient reporting suc
 * Product performance analysis
 * Customer purchasing patterns
 * Restaurant-level performance metrics
+
+---
+
+## Potential Dashboard Metrics
+
+Based on the explored ERP transactional structure, the following metrics could be visualised in a business intelligence dashboard.
+
+### Sales Performance
+
+* Total daily sales
+* Monthly revenue trends
+* Average transaction value
+
+### Product Performance
+
+* Top-selling menu items
+* Least-performing products
+* Product category sales distribution
+
+### Operational Insights
+
+* Peak transaction hours
+* Number of daily orders
+* Sales performance by restaurant location
+
+### Payment Analysis
+
+* Payment method distribution (cash, card, digital)
+* Transaction success rates
+* Average payment per order
+
+These metrics could be implemented in a BI tool such as Microsoft Power BI to create interactive dashboards that help restaurant managers monitor performance and make data-driven decisions.
 
 
