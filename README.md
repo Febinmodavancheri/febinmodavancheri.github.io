@@ -1,6 +1,6 @@
 # Febin Modavancheri  
 
-Data Scientist | Data Engineer  | Data Analyst | MSc Data Science | SQL • Python • R • Power BI • Data Exploration
+Data Engineer  | Data Analyst | MSc Data Science | SQL • Python • R • Power BI • Data Exploration
 
 MSc Data Science graduate from the University of Essex with 7+ years of experience working across data analysis, reporting, and application development. I work with real-world data to uncover patterns, build practical models, and create dashboards that support operational and business decision-making.
 
@@ -37,8 +37,7 @@ My background spans both data and software engineering, which allows me to appro
 
 **Engineering & Tools**
 - Git, Docker, CI/CD  
-- HTML, CSS, JavaScript, jQuery  
-
+- HTML, CSS, JavaScript, jQuery
 ---
 
 ## 📌 Interests  
