@@ -13,7 +13,7 @@ My background spans both data and software engineering, which allows me to appro
 | Project | Focus | Tools | Status |
 |------|------|------|------|
 | **[EHR Heart Disease Predictor](https://github.com/febinmodavancheri/febinmodavancheri.github.io/tree/main/projects/heart-disease-predictor)** | Predictive modelling on healthcare data | Python, ML | Completed |
-| **Route Optimisation & Transit Analysis** | Data-driven transport insights | Python, APIs | Completed |
+| **[Route Optimisation & Transit Analysis](projects/Customer-Booking-Behavior-Prediction)** | Data-driven transport insights | Python, APIs | Completed |
 | **Customer Booking Behaviour Prediction** | Predictive analytics for airline bookings | Python, ML | Completed |
 | **Ethical Use of Data in Ad Targeting** | Data ethics, privacy & consumer impact | Data Analysis, Research | In Progress |
 
