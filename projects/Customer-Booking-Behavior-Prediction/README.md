@@ -4,7 +4,7 @@
 
 This project was completed as part of the British Airways Data Science Job Simulation on the Forage platform. The objective was to analyse airline customer data and develop predictive models to understand and forecast customer booking behaviour.
 
-## Part 1 — Customer Review Analysis
+## Part 1 - Customer Review Analysis
 
 Customer reviews of airline services were analysed to identify common themes influencing passenger satisfaction.
 
@@ -17,7 +17,7 @@ Steps performed:
 Tools used:
 Python, Pandas, NLP techniques, Matplotlib
 
-## Part 2 — Booking Behaviour Prediction
+## Part 2 - Booking Behaviour Prediction
 
 A dataset containing customer search and flight information was analysed to predict whether a customer would complete a booking.
 
