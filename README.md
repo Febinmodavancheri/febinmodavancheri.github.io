@@ -144,7 +144,7 @@ Data-driven transport analysis project focused on route optimisation and operati
 ---
 
 
-# 🏅 Certifications & Learning
+## 🏅 Certifications & Learning
 
 * IBM – Foundations in Generative AI *(2026)*
 * British Airways – Data Science Job Simulation by Forage *(2026)*
