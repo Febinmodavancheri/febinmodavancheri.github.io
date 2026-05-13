@@ -86,23 +86,50 @@ Data-driven transport analysis project focused on route optimisation and operati
 
 ## 🛠️ Core Skills  
 
-**Data & Analytics**
-- Python, SQL (MySQL, SQLite), advanced Excel  
-- Data cleaning, validation, feature engineering  
-- Exploratory data analysis & predictive modelling  
+## Data Analytics & Business Intelligence
 
-**Visualisation & Reporting**
-- Power BI (DAX, Power Query)  
-- Tableau  
-- Matplotlib  
+* SQL (MySQL, PostgreSQL, SQLite)
+* Python
+* Power BI (DAX, Power Query)
+* Advanced Excel
+* Data Cleaning & Validation
+* Exploratory Data Analysis
+* KPI Reporting & Dashboarding
+* Predictive Modelling
+* Feature Engineering
 
-**Databases & Backend**
-- MySQL, NoSQL (MongoDB, Firebase Realtime Database) , PostgreSQL 
-- PHP, Laravel, REST APIs  
+---
 
-**Engineering & Tools**
-- Git, Docker, CI/CD  
-- HTML, CSS, JavaScript, jQuery
+## Databases & Data Systems
+
+* MySQL
+* PostgreSQL
+* MongoDB
+* Firebase Realtime Database
+* Data Modelling
+* ERP Data Analysis
+* ETL / ELT Concepts
+* Data Warehousing Concepts
+* REST APIs
+
+---
+
+## Visualisation & Reporting
+
+* Power BI
+* Tableau
+* Matplotlib
+
+---
+
+## Development & Tools
+
+* Git & GitHub
+* Docker
+* CI/CD
+* PHP & Laravel
+* HTML, CSS, JavaScript, jQuery
+
 ---
 
 ## 📌 Interests  
@@ -113,7 +140,18 @@ Data-driven transport analysis project focused on route optimisation and operati
 * Data-driven decision support and KPI analysis
 * Building dashboards and insights that are clear, practical, and actionable
 * Ethical and responsible use of data and AI
+
 ---
+
+
+# 🏅 Certifications & Learning
+
+* IBM – Foundations in Generative AI *(2026)*
+* British Airways – Data Science Job Simulation by Forage *(2026)*
+* Vista Equity Partners – AI in Action Job Simulation by Forage *(2026)*
+* Microsoft Learn – Power BI & Data Analytics Learning Paths
+* Ongoing Learning in ERP Analytics, Data Warehousing, and Business Intelligence
+
 
 ## 📫 Get in Touch  
 
