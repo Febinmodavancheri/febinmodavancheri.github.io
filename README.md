@@ -55,5 +55,5 @@ My background spans both data and software engineering, which allows me to appro
 
 📧 Email: [febinmodavancheri@gmail.com](mailto:febinmodavancheri@gmail.com)  
 💼 LinkedIn: [linkedin.com/in/febinmodavancheri](https://linkedin.com/in/febinmodavancheri)  
-📄 Resume: [Download PDF](./resume/Febin Modavancheri Resume.pdf)
+📄 Resume: [Download PDF](./resume/Febin_Modavancheri_Resume.pdf)
 
