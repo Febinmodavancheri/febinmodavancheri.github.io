@@ -20,6 +20,70 @@ My background spans both data and software engineering, which allows me to appro
 
 ---
 
+## 🏢 ERP & Business Intelligence Projects
+
+### Restaurant ERP Analytics Platform *(Ongoing)*
+
+Enterprise-style analytics project focused on restaurant ERP systems, transactional data flow, reporting, KPI analysis, and data warehouse design.
+
+#### Focus Areas
+
+* Sales Analytics
+* Inventory & Procurement Analytics
+* Financial Reporting KPIs
+* Branch Performance Analysis
+* ERP Data Modelling
+* SQL-Based Analytics
+* Power BI Reporting
+
+#### Technologies
+
+* MySQL
+* SQL
+* Python
+* Power BI
+
+---
+
+## 🧠 Machine Learning & Analytics Projects
+
+### EHR Heart Disease Predictor *(Completed)*
+
+Predictive modelling project focused on analysing healthcare data and evaluating machine learning models for heart disease prediction.
+
+#### Technologies
+
+* Python
+* R
+* Machine Learning
+* Data Analysis
+
+---
+
+### Airline Booking Behaviour Analytics *(Completed)*
+
+Analysis of airline booking behaviour patterns using predictive analytics and exploratory data analysis techniques.
+
+#### Technologies
+
+* Python
+* Machine Learning
+* Data Analysis
+
+---
+
+### Route Optimisation & Transit Analysis *(Completed)*
+
+Data-driven transport analysis project focused on route optimisation and operational insights.
+
+#### Technologies
+
+* Python
+* APIs
+* Data Analysis
+
+---
+
 ## 🛠️ Core Skills  
 
 **Data & Analytics**
