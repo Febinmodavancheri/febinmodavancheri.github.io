@@ -42,11 +42,13 @@ My background spans both data and software engineering, which allows me to appro
 ---
 
 ## 📌 Interests  
-- Business analytics and decision support  
-- Applied machine learning for real-world problems  
-- Ethical and responsible use of data  
-- Building insights that are clear, practical, and actionable  
 
+* Business analytics and operational reporting
+* ERP systems and data warehousing
+* Applied machine learning for practical business use cases
+* Data-driven decision support and KPI analysis
+* Building dashboards and insights that are clear, practical, and actionable
+* Ethical and responsible use of data and AI
 ---
 
 ## 📫 Get in Touch  
