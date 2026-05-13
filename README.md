@@ -1,6 +1,6 @@
 # Febin Modavancheri  
 
-Data Engineer  | Data Analyst | MS Data Science | SQL • Python • R • Power BI • Data Exploration
+#### Data Analyst | Business Intelligence & ERP Analytics | Data Warehousing | MS Data Science | SQL • Python • R • Power BI • Data Exploration
 
 MSc Data Science graduate from the University of Essex with 7+ years of experience working across data analysis, reporting, and application development. I work with real-world data to uncover patterns, build practical models, and create dashboards that support operational and business decision-making.
 
@@ -33,7 +33,7 @@ My background spans both data and software engineering, which allows me to appro
 - Matplotlib  
 
 **Databases & Backend**
-- MySQL, NoSQL (MongoDB, Firebase Realtime Database)  
+- MySQL, NoSQL (MongoDB, Firebase Realtime Database) , PostgreSQL 
 - PHP, Laravel, REST APIs  
 
 **Engineering & Tools**
@@ -54,4 +54,4 @@ My background spans both data and software engineering, which allows me to appro
 📧 Email: [febinmodavancheri@gmail.com](mailto:febinmodavancheri@gmail.com)  
 💼 LinkedIn: [linkedin.com/in/febinmodavancheri](https://linkedin.com/in/febinmodavancheri)  
 📄 Resume: [Download PDF](./resume/Febin_Modavancheri_Resume.pdf)
-)  
+
